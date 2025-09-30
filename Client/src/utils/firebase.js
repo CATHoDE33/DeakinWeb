@@ -11,7 +11,7 @@ const firebaseConfig = {
   appId: "1:344468445780:web:bac88f388efd0f7712abc1"
 };
 
-const firebaseApp = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 
 const provider = new GoogleAuthProvider();
 provider.setCustomParameters({
@@ -57,4 +57,5 @@ export const createAuthUserWithEmailAndPassword = async (email, password) => {
 export const signinAuthUserWithEmailAndPassword = async (email, password) => {
   if (!email || !password) return;
   return await signInWithEmailAndPassword(auth, email, password)
+
 }
