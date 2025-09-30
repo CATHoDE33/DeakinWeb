@@ -1,0 +1,86 @@
+body {
+  background-color: #20c0ab;
+  color: white;
+  margin: 0;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.width-margins {
+  margin: 0 100px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.spacing {
+  height: 15px;
+}
+
+h1 { font-size: 35px; }
+h2 { font-size: 25px; }
+h3 { font-size: 18px; }
+
+.body-fontsize {
+  font-size: 18px !important;
+}
+
+.primary-background-color {
+  background-color: #00b5ad !important;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  font-size: 27px;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.footer {
+  background-color: #008080;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer a:hover {
+  color: #e0e0e0;
+}
+
+.footer-links {
+  margin-top: 2rem;
+}
+
+.footer-links .MuiTypography-root {
+  text-align: center;
+}
