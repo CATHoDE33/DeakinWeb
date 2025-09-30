@@ -50,7 +50,7 @@ const CreateAccountPage = () => {
   };
 
   return (
-    <Container maxWidth="md" sx={{ mt: 12 }}>
+    <Container maxWidth="md" sx={{ mt: 9 }}>
       <Paper
         elevation={3}
         sx={{
